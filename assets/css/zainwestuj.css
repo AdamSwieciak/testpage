@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bgc-blue{
+  background-color:#eff5fe;
+  padding: 0 40px;
+}
+
+section {
+  font-family: 'Mulish', sans-serif;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  margin: 160px 0;
+}
+section .left{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .left img{
+  width: 65%;
+}
+section .right{
+  width: 35%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .right h2{
+  font-size: 30px;
+}
+section .right h4{
+  font-size: 20px;
+}
+section .right .line{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+section .right .line span{
+border-top: 2px solid #D9E1F3;
+width: 100%;
+padding-top: 10px;
+}
+section .right p{
+  color: #5d5d60;;
+  font-size: 15px;
+  line-height: 23px;
+}
+section .right .media{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section .right .media a{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .right .media a img{
+  width: 100%;
+  
+}
+
+@media all and (max-width: 1000px) {
+section {
+  width: 100%;
+}
+}
+@media all and (max-width: 600px) {
+section {
+ flex-direction: column;
+}
+section .left {
+ width: 100%;
+}
+section .right {
+ width: 90%;
+}
+
+}
