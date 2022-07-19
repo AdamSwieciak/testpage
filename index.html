@@ -18,11 +18,6 @@
           navigator.userAgent
         )
       ) {
-        let now = new Date().valueOf();
-        setTimeout(function () {
-          if (new Date().valueOf() - now > 100) return;
-          window.location = hrefdesktopPages;
-        }, 50);
         location.href = hrefmobilePages;
         window.location = hrefmobilePages;
       } else {
