@@ -18,7 +18,7 @@
           navigator.userAgent
         )
       ) {
-        if (hrefmobilePages.includes("http")) {
+        if (hrefmobilePages.substr(0, 4) == "http") {
           window.location = hrefmobilePages;
         }
         let now = new Date().valueOf();
